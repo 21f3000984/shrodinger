@@ -14,5 +14,5 @@ def main():
     result = largest_number(a, b, c)
     st.write(f"The largest number among {a}, {b}, and {c} is: {result}")
 
-if name == "main":
+if __name__ == "__main__":
     main()
